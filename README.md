@@ -1,4 +1,16 @@
-# create-svelte
+# Basic Kanban Board with Svelte <3
+
+![task-board](https://github.com/msawaguchi/svelte_basic_kanban/assets/28602785/375f5397-74b6-4ef2-8b3d-002d9176b7a5)
+
+<p> Another project done in order to learn more about Svelte. </p>
+
+This time, i'm using [SvelteKit](https://github.com/sveltejs/kit) with UI library [Skeleton](https://github.com/skeletonlabs/skeleton)
+There is no back-end for this project yet, so all data is coming from the object inside ``src/lib/server/database.ts`` file.
+
+![board_svelte](https://github.com/msawaguchi/svelte_basic_kanban/assets/28602785/14e11b28-cdcc-4cdd-b1f0-08f76a534964)
+
+
+# How to create a svelte project
 
 Everything you need to build a Svelte project, powered by [`create-svelte`](https://github.com/sveltejs/kit/tree/master/packages/create-svelte).
 
