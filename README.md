@@ -6,6 +6,7 @@
 <p> Another project done in order to learn more about Svelte. </p>
 
 This time, i'm using [SvelteKit](https://github.com/sveltejs/kit) with UI library [Skeleton](https://github.com/skeletonlabs/skeleton)
+
 There is no back-end for this project yet, so all data is coming from the object inside ``src/lib/server/database.ts`` file.
 
 ![board_svelte](https://github.com/msawaguchi/svelte_basic_kanban/assets/28602785/cc0cd5d9-7b27-4146-ba2c-9e1438f0fd27)
