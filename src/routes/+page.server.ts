@@ -13,7 +13,7 @@ async function sleep(ms: number) {
 }
 
 export const actions: Actions = {
-    addTodo: async({ request }) => {
+    addTask: async({ request }) => {
 
         const formData = await request.formData()
         const title = String(formData.get('title'))

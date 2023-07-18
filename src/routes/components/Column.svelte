@@ -24,7 +24,7 @@
     }
 </script>
  
-<div class="container flex-col items-center m-3 p-4 w-72 my-0.5 mb-0.5 rounded-md">
+<div class="container flex-col items-center m-3 p-4 w-72 my-0.5 mb-0.5 rounded-md ">
     <h1>{title}</h1>
     <section
         use:dndzone="{{ items: items, flipDurationMs: flipDurationMs, dropTargetStyle:{}}}"
@@ -32,7 +32,7 @@
         on:finalize="{handleFinalize}"
     >
         {#each items as item (item.id)}
-            <div class="card card-hover my-4 bg-violet-900" animate:flip="{{ duration: flipDurationMs }}">
+            <div class="card card-hover my-4 variant-glass-surface" animate:flip="{{ duration: flipDurationMs }}">
                 <header class="card-header">
                     <h4>{item.title}</h4>
                 </header>

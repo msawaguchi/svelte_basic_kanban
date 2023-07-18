@@ -1,6 +1,4 @@
 <script lang="ts">
-    
-    import AddTaskForm from './AddTaskForm.svelte';
     import Modal from './Modal.svelte';
 
     let showModal = false
@@ -14,7 +12,7 @@
   open={showModal}
   on:close={() => handleToggleModal()}
 >
-    <AddTaskForm /> 
+  <slot />
 </Modal>
 
 <nav class="flex items-center justify-between flex-wrap bg-gray-800 p-3">
